@@ -13,6 +13,13 @@ generation_config = {
   "temperature": 0.5,
 }  
 
+safety_settings={
+    'HATE': 'BLOCK_NONE',
+    'HARASSMENT': 'BLOCK_NONE',
+    'SEXUAL' : 'BLOCK_NONE',
+    'DANGEROUS' : 'BLOCK_NONE'
+    }
+
 model = genai.GenerativeModel(model_name='gemini-1.0-pro',
                                   generation_config=generation_config,
                                   safety_settings=safety_settings,)
