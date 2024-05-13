@@ -1,2 +1,2 @@
 # ChatBot_AI
-A ChatBot using the Google artificial intelligence, the Gemini API.
+A ChatBot named Marigó using the Google artificial intelligence, the Gemini API.
