@@ -1,5 +1,5 @@
-# Marigó, a chatbot AI
-## Marigó is a chatbot created using the Google artificial intelligence, the Gemini API.
+# Calfé, a chatbot AI
+## Calfé is a chatbot created using the Google artificial intelligence, the Gemini API.
 ### It's a simple bot created with python made to be used alongside a standalone source code editor, like vscode.
 
 > [!IMPORTANT]
