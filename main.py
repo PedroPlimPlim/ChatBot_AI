@@ -39,13 +39,13 @@ def send_prompt(event=None):
   
   response = chat.send_message(prompt)
   text_area.tag_config("chatbot", background="lightblue")
-  text_area.insert(tk.END, f"Marigó: {response.text}\n", "chatbot")
+  text_area.insert(tk.END, f"Calfé: {response.text}\n", "chatbot")
 
 
 window = tk.Tk()
 window.geometry("900x600")
 window.configure(bg="Blue")
-window.title("Marigó")
+window.title("Calfé")
 
 frame = tk.Frame(window)
 frame.pack(side="bottom", padx=10, pady=10)
